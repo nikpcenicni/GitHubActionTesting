@@ -1,16 +1,16 @@
 name: Hello World
 
 on: 
-    push:
-        branches:
-            - 'main'
-    pull_request:
-        branches:
-            - 'main'
+  push:
+    branches:
+       - 'main'
+  pull_request:
+    branches:
+       - 'main'
 
 jobs:
-    hello:
-        runs-on: ubuntu-latest
+  hello:
+    runs-on: ubuntu-latest
 
     steps:
         - name: Hello Step
